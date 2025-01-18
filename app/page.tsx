@@ -136,7 +136,7 @@ const LandingPage = () => {
               {/* Company Info */}
               <div className="space-y-4">
                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  
+                  FinTrade
                 </div>
                 <p className="text-gray-600">
                   Empowering small and medium enterprises through digital innovation.

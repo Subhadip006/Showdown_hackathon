@@ -15,12 +15,9 @@
     "@react-login-page/page3": "^1.0.4",
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.47.16",
-<<<<<<< HEAD
     "framer-motion": "^11.18.1",
-=======
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
->>>>>>> 763569433d345f8baad234cbf3cdf26e4e010d48
     "lucide-react": "^0.473.0",
     "next": "15.1.5",
     "react": "^19.0.0",
