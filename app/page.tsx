@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import Sbutton from '@/app/components/button';
 import { Search, Menu, X, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 const LandingPage = () => {
@@ -29,7 +30,7 @@ const LandingPage = () => {
               {/* Logo */}
               <div className="flex-shrink-0">
                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  SME Trader
+                  FinTrade
                 </div>
               </div>
 
@@ -38,9 +39,7 @@ const LandingPage = () => {
                 <a href="/blog" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">Blog</a>
                 <a href="/about" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">About</a>
                 <a href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">Contact</a>
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">
-                  Login / Sign Up
-                </button>
+                <Sbutton />
               </div>
 
               {/* Mobile menu button */}
@@ -162,15 +161,15 @@ const LandingPage = () => {
                 <ul className="space-y-2">
                   <li className="flex items-center space-x-2 text-gray-600">
                     <Mail size={16} />
-                    <span>info@smetrader.com</span>
+                    <span>info@fintrade.com</span>
                   </li>
                   <li className="flex items-center space-x-2 text-gray-600">
                     <Phone size={16} />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+91 12345 67890</span>
                   </li>
                   <li className="flex items-center space-x-2 text-gray-600">
                     <MapPin size={16} />
-                    <span>123 Business Ave, Suite 100<br />New York, NY 10001</span>
+                    <span>Mahatma Gandhi Road<br />Durgapur, WB 713209</span>
                   </li>
                 </ul>
               </div>
@@ -178,7 +177,7 @@ const LandingPage = () => {
 
             {/* Bottom Bar */}
             <div className="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
-              <p>© 2025 SME Trader. All rights reserved.</p>
+              <p>© 2025 FinTrade. All rights reserved.</p>
             </div>
           </div>
         </footer>
