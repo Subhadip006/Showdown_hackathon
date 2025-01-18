@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import Link from 'next/link';
 import Sbutton from '@/app/components/button';
 import { Search, Menu, X, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
@@ -61,7 +62,9 @@ const LandingPage = () => {
                 <a href="/blog" className="block py-2 text-gray-700">Blog</a>
                 <a href="/about" className="block py-2 text-gray-700">About</a>
                 <a href="/contact" className="block py-2 text-gray-700">Contact</a>
-                <Sbutton />
+                <button className="w-full mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg">
+                  Login / Sign Up
+                </button>
               </div>
             </div>
           )}
@@ -110,7 +113,7 @@ const LandingPage = () => {
               {/* Company Info */}
               <div className="space-y-4">
                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  SME Trader
+                  FinTrade
                 </div>
                 <p className="text-gray-600">
                   Empowering small and medium enterprises through digital innovation.
