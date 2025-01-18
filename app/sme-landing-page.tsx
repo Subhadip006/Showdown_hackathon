@@ -1,6 +1,4 @@
-"use client"
 import React from 'react';
-import { Poppins } from 'next/font/google';
 import { Search, Menu, X, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 const LandingPage = () => {
@@ -73,7 +71,7 @@ const LandingPage = () => {
 
         {/* Hero Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
-          <h1 className="text-5xl md:text-6xl font-bold text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-10 animate-fade-in">
+          <h1 className="text-5xl md:text-6xl font-bold text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-8 animate-fade-in">
             Connecting Local Businesses, Empowering Communities
           </h1>
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto mb-12">
