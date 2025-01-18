@@ -1,4 +1,4 @@
-'use server'
+'use client'
 
 import { revalidatePath } from 'next/cache'
 import { redirect } from 'next/navigation'
@@ -7,7 +7,8 @@ import { createClient } from '@/utils/supabase/server'
 
 export async function login(formData: FormData) {
   const supabase = await createClient()
-
+  console.log(supabase)
+  console.log(3 + 2 )
   // type-casting here for convenience
   // in practice, you should validate your inputs
   const data = {
@@ -27,7 +28,7 @@ export async function login(formData: FormData) {
 
 export async function signup(formData: FormData) {
   const supabase = await createClient()
-
+  console.log(supabase)
   // type-casting here for convenience
   // in practice, you should validate your inputs
   const data = {
