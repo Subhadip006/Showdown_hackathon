@@ -11,6 +11,8 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-tabs": "^1.1.2",
+    "@react-login-page/page1": "^1.0.4",
+    "@react-login-page/page3": "^1.0.4",
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.47.16",
     "class-variance-authority": "^0.7.1",

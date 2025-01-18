@@ -1,6 +1,7 @@
 "use client"
 
 import { login, signup } from '@/app/(auth)/login/action'
+import Link from 'next/link';
 
 import React from 'react';
 import styled from 'styled-components';
@@ -8,13 +9,15 @@ import styled from 'styled-components';
 const Form = () => {
   return (
     <StyledWrapper>
-      <div className="container">
+      <div className="container h-4/6 w-10/12 ">
         <div className="heading">Sign In</div>
         <form className="form" >
           <input placeholder="E-mail" id="email" name="email" type="email" className="input" required />
           <input placeholder="Password" id="password" name="password" type="password" className="input" required />
           <span className="forgot-password"><a href="#">Forgot Password ?</a></span>
-          <input defaultValue="Sign In" type="submit" className="login-button" formAction={login}/>
+          <input defaultValue="Sign In" type="submit" className="login-button" onClick={() => {
+            <Link href='/'></Link>
+          }}/>
         </form>
         <div className="social-account-container">
           <span className="title">Or Sign in with</span>
@@ -36,7 +39,7 @@ const Form = () => {
             </button>
           </div>
         </div>
-        <span className="agreement"><a href="#">Learn user licence agreement</a></span>
+        <span className="agreement"><a href="#">Don't have an account?</a></span>
       </div>
     </StyledWrapper>
   );

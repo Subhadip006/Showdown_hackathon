@@ -9,13 +9,32 @@ const LandingPage = () => {
 
   // Sample gallery images - replace with actual images in production
   const galleryImages = [
-    { id: 1, title: "Local Artisans" },
-    { id: 2, title: "Fresh Produce" },
-    { id: 3, title: "Handmade Crafts" },
-    { id: 4, title: "Local Services" },
-    { id: 5, title: "Unique Goods" },
-    { id: 6, title: "Community Trading" }
-  ];
+    {
+      id: 1,
+      title: "Local Artisans",
+      image: "/images/local-artisans.jpg"
+    },
+    {
+      id: 2,
+      title: "Fresh Produce",
+      image: "/images/fresh-produce.jpg"
+    },
+    {
+      id: 3,
+      title: "Handmade Crafts",
+      image: "/images/handmade-crafts.jpg"
+    },
+    {
+      id: 4,
+      title: "Local Services",
+      image: "/images/local-services.jpg"
+    },
+    {
+      id: 5,
+      title: "Unique Goods",
+      image: "/images/unique-goods.jpg"
+    },
+  ]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
@@ -40,7 +59,11 @@ const LandingPage = () => {
                 <a href="/blog" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">Blog</a>
                 <a href="/about" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">About</a>
                 <a href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">Contact</a>
-                <Sbutton />
+                <Link href="/login">
+
+                  <Sbutton />
+                
+                </Link>
               </div>
 
               {/* Mobile menu button */}
