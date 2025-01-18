@@ -5,7 +5,7 @@ const Button = () => {
   return (
     <StyledWrapper>
       <button className="cssbuttons-io-button">
-        Login/SignUp
+        Sign Up
         <div className="icon">
           <svg height={24} width={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0h24v24H0z" fill="none" />
@@ -19,7 +19,7 @@ const Button = () => {
 
 const StyledWrapper = styled.div`
   .cssbuttons-io-button {
-    background:rgb(71, 85, 211);
+    background:rgb(75, 102, 223);
     color: white;
     font-family: inherit;
     padding: 0.35em;
@@ -51,6 +51,10 @@ const StyledWrapper = styled.div`
     border-radius: 0.7em;
     box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
     right: 0.3em;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
     transition: all 0.3s;
   }
 

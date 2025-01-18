@@ -61,9 +61,7 @@ const LandingPage = () => {
                 <a href="/blog" className="block py-2 text-gray-700">Blog</a>
                 <a href="/about" className="block py-2 text-gray-700">About</a>
                 <a href="/contact" className="block py-2 text-gray-700">Contact</a>
-                <button className="w-full mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg">
-                  Login / Sign Up
-                </button>
+                <Sbutton />
               </div>
             </div>
           )}
